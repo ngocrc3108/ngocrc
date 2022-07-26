@@ -1,5 +1,5 @@
 const urlOfTele = "https://api.telegram.org/bot5431503813:AAEzszlOgw8z3WhbRG8P97V8AH3j2sRt4vU/getUpdates"
-const urlOfScipt = "https://script.google.com/macros/s/AKfycbzf_3oERWN_V2lcuFJvBVwkELAUiSLijfoQuTbXorD0bSJk3S9EByQau6B-Hc2lRDnm/exec"
+const urlOfScipt = "https://script.google.com/macros/s/AKfycbyCPyuYe1S5pfu7hCZLYs2srpeIxgHEX7BUOuvJt_WQ4UgVfWHKczqXEJFg027Poq20/exec"
 fetch("https://api.telegram.org/bot5431503813:AAEzszlOgw8z3WhbRG8P97V8AH3j2sRt4vU/sendMessage?chat_id=-645439366&text=Server đã được bật");
 fetch(urlOfTele)
     .then(update => update.json())
